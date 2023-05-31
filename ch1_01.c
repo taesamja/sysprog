@@ -6,7 +6,7 @@ extern int errno;
 
 int main()
 {
-    if(acces("test.txt", F_OK) == -1)
+    if(access("test.txt", F_OK) == -1)
     {
         printf("errno = %d\n", errno);
     }
