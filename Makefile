@@ -1,5 +1,6 @@
 # 사용법 : make target=파일이름
 # Usage : make target="file name" ex)make target=ch2_01
+# 실행파일만 지우는 방법 : find -type f -executable -delete
 CC = gcc
 CFLAGS = -Wall -Werror
 
